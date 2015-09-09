@@ -1,0 +1,18 @@
+{
+    "name": "iqg/utils-bundle",
+    "description": "some small utils for developer when using symfony2.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "guonan",
+            "email": "guonan@doweidu.com"
+        }
+    ],
+    "require": {
+        "php":   ">=5.3",
+        "iqg/utils": "~1.0"
+    },
+    "autoload": {
+        "psr-4": { "DWD\\UtilsBundle\\": "src" }
+    }
+}
