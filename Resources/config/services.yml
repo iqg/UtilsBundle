@@ -1,7 +1,12 @@
 parameters:
 #    utils.example.class: DWD\UtilsBundle\Example
+    dwd.utils.string.class: DWD\UtilsBundle\Utils\StringUtil
 
 services:
 #    utils.example:
 #        class: %utils.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+
+    dwd.string:
+        class: %dwd.utils.string.class%
+        arguments: [ @service_container ]
